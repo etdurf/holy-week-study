@@ -1,0 +1,27 @@
+:root {
+  --sans: 'DM Sans', sans-serif;
+  --serif: 'Literata', Georgia, serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: var(--sans);
+  background: linear-gradient(180deg, #f9f6f0 0%, #efe9df 100%);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes fadeSlide {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+button {
+  font-family: var(--sans);
+}
